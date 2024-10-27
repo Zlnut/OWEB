@@ -1,0 +1,34 @@
+h1   {background-color: beige;
+      text-align: center;
+      font-family: 'Times New Roman', Arial, sans-serif;
+      padding: .3em;
+      position: relative;
+      width: 50%;
+      left: 25%;
+      border-style: solid;
+      border-width: medium;
+      border-color: #bfbf87;} 
+h3   {background-color: beige;
+      position: relative;
+      font-family: 'Times New Roman', Arial, sans-serif;
+      font-size: x-large;
+      width: 50%;
+      left:25%;
+      padding: .38em;
+      margin: 0em;} 
+body {font-family: 'Times New Roman', Arial, sans-serif;
+      background-image: url(Pizza-delivery2.png);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #FF6347;
+      }
+p   {font-size: large;
+     color:black;
+     background-color: beige;
+     text-align: center;
+     position: relative;
+     left: 25%;
+     width: 50%;
+     margin: 0em;
+     padding: .5em;}

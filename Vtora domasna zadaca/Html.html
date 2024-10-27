@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Jakomos </title>
+        <link rel = "stylesheet" type = "text/css" href = "Css.css"> <!-- tuka go povrzuvame CSS filot so HTML-->
+    </head>
+
+    <body>
+        <h1> Online pizza delivery </h1>
+        <p> Please fill out the following form so we can get your pizza ready as soon as possible:</p>
+
+        <form method = "post" action = "https://www.pizzajakomo.com/">
+
+        <p><h3><strong> Pizza Specifications: </strong></h3></p>
+        <p><select name = "Type of pizza">
+            <option>Thin crust</option>
+            <option>Thick crust</option>
+            <option>Deep Dish</option>
+            <option>Calzone</option>
+        </select><br></p>
+        
+        <p><select name = "Topping/Filling">
+            <option>Margarita</option>
+            <option>Capricosa</option>
+            <option>Napoliana</option>
+            <option>Pepperoni</option>
+            <option>Hawaiian</option>
+        </select></p>
+
+        <p>
+            <strong>Additional Topppings</strong><br>
+            <lable> Anchovies
+                <input name = "adtoppings" type = "checkbox" value = "Anchovies">
+            </lable> <br>
+            <lable> Sardines
+                <input name = "adtoppings" type = "checkbox" value = "Sardines">
+            </lable><br>
+            <lable> Olives
+                <input name = "adtoppings" type = "checkbox" value = "Olives">
+            </lable><br>
+            <lable> Hot Peppers 
+                <input name = "adtoppings" type = "checkbox" value = "Hot Peppers">
+            </lable><br>
+            <lable> Egg 
+                <input name = "adtoppings" type = "checkbox" value = "Egg">
+            </lable> <br>
+        </p>
+
+        <p><h3><strong>Delivery Information:</strong></h3></p>
+        <p>
+            <lable>Name:
+                <input name = "name" type = "text" size = "25">
+            </lable>
+        </p>
+        <p>
+            <lable>Address:
+                <input name = "address" type = "text" size = "40">
+            </lable>
+        </p>
+        <p>
+            <lable>Number:
+                <input name = "number" type = "text" size = "40">
+            </lable>
+        </p>
+        <p>
+            <lable>Special Requests: <br>
+                <textarea name = "sprequests" rows = "2" cols = "20">Any Special requests?</textarea>
+            </lable>
+        </p>
+        
+        <p>
+            <strong>Type of delivery:</strong><br>
+            <lable>Regular
+                <input name = "tod" type = "radio" value = "regular">
+            </lable> <br>
+            <lable>High Priority (+ 5$)
+                <input name = "tod" type = "radio" value = "highpriority" checked>
+            </lable><br>
+        </p>
+
+        <p>
+            <input type = "submit" value = "Send Order">
+            <input type = "reset" value = "Reset Order">
+        </p>
+
+    </form>
+    </body>
+</html>
