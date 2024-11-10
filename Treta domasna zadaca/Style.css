@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', 'Sans-Serif';
+    text-align: center;
+    background-color: beige;
+}
+
+#display { /*pound because we are working with ids, not with classes? */
+    font-size: 4em;
+    
+}
+
+#incorrectGuesses{
+    color: red;
+
+}
+
+#message{
+    font-size: 3em;
+    background-color:gold;
+    position: relative;
+    width: 25%;
+    left: 37.5%;
+}
