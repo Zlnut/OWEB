@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #003893;
+    color: white;
+    margin-left: 10em;
+}
+
+#mini-instagram {
+    background: #dd0000;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white
+}
+
+#posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.post .likes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.like-button {
+    cursor: pointer;
+    color: #007bff;
+}
+

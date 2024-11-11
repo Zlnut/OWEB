@@ -1,0 +1,93 @@
+/*for the navigation bar at the top of the webpage*/
+.navbar {
+    overflow: hidden;
+    background-color: #003893;
+    top: 0;  /*position it at the top*/
+    width: 100%; 
+    z-index: 999;
+}
+
+.navbar a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar a:hover{ /*change the color of the links when hovered over*/
+    background: #ddd;
+    color: black;
+}
+
+main{
+    padding-top: 0.1em ; 
+    background-image: url(Yugoslav_Star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#survey, #testdr, #models { /*Defining this so we can navigate properly*/
+    display: none;
+}
+
+h2{
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.testdrive{
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #f5f5f5;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
+.survey-form{
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.rating-group{
+    display: flex;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+
+/*Footer styles*/
+
+footer{
+    background: #dd0000;
+    color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+
+.ptag{
+    font-size: x-small;
+    font-style: italic;
+}

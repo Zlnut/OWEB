@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src = "Ministagram.js" defer></script>
+    <link rel = "stylesheet" type = "text/css" href = "Models.Css">
+    <title>Zastava 101</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <!-- Car Information -->
+        <div class="card mb-4 justify-content-center" style = "max-width: 50em;">
+            <img src="Zastava_101.jpg" class="card-img-top img-fluid w-100" alt="Zastava 101">
+            <div class="card-body">
+                <h2 class="card-title">Zastava Skala</h2>
+                <p class="card-text">
+                    The Zastava Skala, also known as "Stojadin"(a male name, from the similarity with Serbo-Croatian for 101) or Zastava101, is a generic name for a family of cars built from 1971 until 2008 by the manufacturer Zastava Avtomobili. Until the introduction of the Yugo in 1980, this car was the perhaps the most well known car to come out of Yugoslavia. This car has been praised for its very low price, along with the practicality and the robustness for its given price range. Due to all these factors, "Stojadin" has gained a cult following and a sort of legendary status in ex-Yugoslavian countries: a solid, inexpensive car which can still be seen all across ex-Yugoslavian territories.
+                </p>
+                <ul>
+                    <li>Engine: 1290 cc, 73 HP</li>
+                    <li>Top Speed: 144 km/h</li>
+                    <li>Year: 1987</li>
+                    <li>Condition: New</li>
+                    <li>Price: 3000€</li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Mini Instagram Section -->
+        <div id="mini-instagram" class="mb-5">
+            <h3>Share Your Zastava Skala</h3>
+            <form id="upload-form" class="mb-3">
+                <input type="file" id="upload-image" class="form-control mb-2" accept="image/*" required>
+                <input type="text" id="comment" class="form-control mb-2" placeholder="Add a comment" required>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+            <div id="posts-container"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    </html>
+</body>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src = "Ministagram.js" defer></script>
+    <link rel = "stylesheet" type = "text/css" href = "Models.Css">
+    <title>ZastavaYugo</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <!-- Car Information -->
+        <div class="card mb-4 justify-content-center" style = "max-width: 50em;">
+            <img src="Yugo.jpg" class="card-img-top img-fluid w-100" alt="ZastavaYugo">
+            <div class="card-body">
+                <h2 class="card-title">Yugo</h2>
+                <p class="card-text">
+                    Yugo is the common name for the Zastava Yugo, manufactured from 1980 until 2008. The Yugo is the only Yugoslavian car to have been exported to western countries, which in turn has made it the most well known car that has been produced in Yugoslavia. Sadly, the car in the west had a very poor reputation, criticized for its design, lack of safety and reliability, to the point where it has been named one of the worst cars ever manufactured. In former Yugoslavian countries however, the car has quite a cult following due to the simplicity and overall cheap price.
+                </p>
+                <ul>
+                    <li>Engine: 903 cc, 45 HP</li>
+                    <li>Top Speed: 135 km/h</li>
+                    <li>Year: 1980</li>
+                    <li>Condition: New</li>
+                    <li>Price: 1000€</li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Mini Instagram Section -->
+        <div id="mini-instagram" class="mb-5">
+            <h3>Share Your Zastava Yugo</h3>
+            <form id="upload-form" class="mb-3">
+                <input type="file" id="upload-image" class="form-control mb-2" accept="image/*" required>
+                <input type="text" id="comment" class="form-control mb-2" placeholder="Add a comment" required>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+            <div id="posts-container"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+    </html>
+</body>

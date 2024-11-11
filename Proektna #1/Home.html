@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset ="utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src = "Script.js" defer></script>
+    <link rel = "stylesheet" type = "text/css" href = "Style.css">
+    <title>Yugoslavian Cars</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <nav>
+                <div class = "navbar">
+                    <div class = logo>Yugoslavian Retro Car Yard</div>
+                    <a href = "#home">Home page</a>
+                    <a href = "#models">Models</a>
+                    <a href = "#testdr">Schedule a test drive!</a> <!--Change the link depending on how you change the site-->
+                    <a href = "#survey">Tell us what you think of the site!</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<main>
+    <section id ="home"> <!--We create sections of content to divide all of the material. In the js, we will define the script such that each section is only displayed (display: none)  once at a time, allowing us to change sections without reloading the page.-->
+    <div class = "category-container">
+        <h2>Categories</h2>
+        <div class = "card-deck justify-content-center">
+        <div class = "card text-white bg-dark mb-3" style = "max-width: 18rem;">
+            <div class = "card-body">
+                <h5 class="card-title">New!</h5>
+                <p class = "card-text">These new cars are actually models that never exited their garages. The quality of these models are such that you would think we invented a time machine went back to 1985 and got them straight from the factory floor. We guarrantee their quality!</p>
+                <a href = "#models" class = "btn btn-primary new-categories">See new models</a>
+            </div>
+        </div>
+        <div class = "card text-white bg-dark mb-3" style = "max-width: 18rem;">
+            <div class = "card-body">
+                <h5 class="card-title">Used</h5>
+                <p class = "card-text">Many of these models we bought from people getting sick of Yugo-Nostalga or eldery citizens looking to upgrade to a robust german car. In any case almost all of these models were in rough shape. We took them to our garage and serviced them until they were better than any previous moment in their lifetime. Why not celebrate their new life by taking them out for a drive?</p>
+                <a href = "#models" class = "btn btn-primary used-categories">See used models</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id = "models"> 
+        <h2>Models</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3 mb-3">
+                <div class="card text-white bg-dark h-100">
+                    <img class="card-img-top" src="Zastava750.jpg" alt="Zastava750">
+                    <div class="card-body">
+                        <h5 class="card-title">Zastava 750</h5>
+                        <p>This car (also known as Fićo) is an absolute classic when it comes to Yugo-cars.</p>
+                        <p>Price: 7500€</p>
+                        <p>Type: New</p>
+                        <a href="Zastava750.html" class="btn btn-primary">View car page</a>
+                        <a href="#testdr" class = "btn btn-primary testdr">Schedule Test Drive</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-3 mb-3">
+                <div class="card text-white bg-dark h-100">
+                    <img class="card-img-top" src="Yugo.jpg" alt="Yugo">
+                    <div class="card-body">
+                        <h5 class="card-title">Zastava Yugo</h5>
+                        <p>The Zastava Yugo is probably the first car that comes to mind when you think of Yugo-cars.</p>
+                        <p>Price: 700€</p>
+                        <p>Type: New</p>
+                        <a href="ZastavaYugo.html" class="btn btn-primary">View car page</a>
+                        <a href="#testdr" class = "btn btn-primary testdr">Schedule Test Drive</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-3 mb-3">
+                <div class="card text-white bg-dark h-100">
+                    <img class="card-img-top" src="Zastava_101.jpg" alt="Zastava101">
+                    <div class="card-body">
+                        <h5 class="card-title">Zastava Skala</h5>
+                        <p>The Zastava Skala was very popular before the Yugo appeared in the 1980s.</p>
+                        <p>Price: 3000€</p>
+                        <p>Type: New</p>
+                        <a href="Zastava101.html" class="btn btn-primary">View car page</a>
+                        <a href="#testdr" class = "btn btn-primary testdr">Schedule Test Drive</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-3 mb-3">
+                <div class="card text-white bg-dark h-100">
+                    <img class="card-img-top" src="Škoda_105.jpg" alt="Škoda 105">
+                    <div class="card-body">
+                        <h5 class="card-title">Škoda 105</h5>
+                        <p>This Czechoslovakian import was popular among many motorists and won several rallies.</p>
+                        <p>Price: 5000€</p>
+                        <p>Type: New</p>
+                        <a href="Škoda105.html" class="btn btn-primary">View car page</a>
+                        <a href="#testdr" class = "btn btn-primary testdr">Schedule Test Drive</a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+
+    <section id = "testdr">
+        <h2>Schedule a Test Drive!</h2>
+        <form class = "testdrive">
+            <lable for="name">Full Name:</lable><br>
+            <input type = "text" id = "fullname" placeholder="Please enter your full name:" required><br>
+    
+            <lable for = "phone">Phone number:</lable><br>
+            <input type = "telephone" id = "phone" placeholder = "Please enter your phone number:" required><br>
+            
+            <div class = "Car-model"><br>
+                <label for = "model">Please select a car model:</label><br>
+                <input type="radio" name="model" value="Zastava 101"> Zastava 101 <br>
+                <input type="radio" name="model" value="Zastava 750"> Zastava 750<br>
+                <input type="radio" name="model" value="Zastava Yugo"> Zastava Yugo<br>
+                <input type="radio" name="model" value="Škoda 105"> Škoda 105<br>
+            </div><br>
+    
+            <label for = "date">Recommend a time:</label><br>
+            <input type = "time" id = "time" name = "time" required><br>
+    
+            <label for = "comments">Any Requests?</label><br>
+            <textarea id = "comments" name = "comments" rows = "3" placeholder="Enter any requests?"></textarea><br>
+            
+            <input type ="submit" value = "Schedule test drive"><br>
+        </form>
+    </section>
+    
+    <section id = "survey">
+        <h2>Tell us what we can improve!</h2>
+        <form class = "survey-form">
+            <div class = "form-group">
+                <lable form = "impression">Your thoughts?<br></lable>
+                <textarea id = "impression" required></textarea>
+            </div><br>
+            <div class = "form-group">
+                <label>Website Rating:</label>
+                <div class="rating-group">
+                    <input type="radio" name="rating" value="1"> 1
+                    <input type="radio" name="rating" value="2"> 2
+                    <input type="radio" name="rating" value="3"> 3
+                    <input type="radio" name="rating" value="4"> 4
+                    <input type="radio" name="rating" value="5"> 5
+                </div>
+            </div>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <div class = "footer-content">
+            <div>
+                <h3>Contact Us</h3>
+                <p>Phone: 078-414141</p>
+                <p>Email: info@yugocars.mk.com</p>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <p>Skupi 3</p>
+                <p>Skopje 1000, Macedonia</p>
+            </div>
+            <div>
+                <h3>Hours:</h3>
+                <p>Mon-Fri: 9AM - 5PM</p>
+                <p>Sat-Sun: Closed</p>
+            </div>
+            <p class = "ptag">2024 Yugocars. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
